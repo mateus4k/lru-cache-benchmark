@@ -1,0 +1,25 @@
+{
+  "name": "decorators",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc --build",
+    "benchmark": "node benchmark.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/benchmark": "^2.1.2",
+    "reflect-metadata": "^0.1.13",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "benchmark": "^2.1.4",
+    "lru-cache": "^8.0.5",
+    "mnemonist": "^0.39.5",
+    "tiny-lru": "^11.0.0"
+  }
+}
